@@ -145,10 +145,6 @@
       "name": "🐟 摸鱼儿"
     },
     {
-      "url": "http://box.ufuzi.com/tv/qq/短剧频道/api.json",
-      "name": "🎭 短剧频道"
-    },
-    {
       "url": "http://home.jundie.top:81/top98.json",
       "name": "🕺 俊佬线路"
     },
@@ -159,6 +155,10 @@
     {
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
       "name": "💐 香雅情"
+    },
+    {
+      "url": "http://box.ufuzi.com/tv/qq/短剧频道/api.json",
+      "name": "🎭 短剧频道"
     },
     {
       "url": "https://www.yingm.cc/dm/dm.json",
