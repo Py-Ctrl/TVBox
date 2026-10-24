@@ -1147,6 +1147,179 @@
       }
     },
     {
+      "key": "油管jar",
+      "name": "油管jar",
+      "type": 3,
+      "api": "csp_ProxySpider",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "ext": {
+        "class": "YoutubeSpider",
+        "ext": {
+          "youtube_txt": "http://zhangqun1818.serv00.net/zq/youtube0418.txt"
+        }
+      }
+    },
+    {
+      "key": "爱瓜TV",
+      "name": "爱瓜TV",
+      "type": 4,
+      "api": "../aigua1.php",
+      "searchable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
+    {
+      "key": "旺旺短剧",
+      "name": "旺旺短剧",
+      "type": 1,
+      "api": "../ww.php",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "采集集合",
+      "name": "采集集合",
+      "type": 4,
+      "api": "http://zhangqun1818.serv00.net/cj/cjjh.php",
+      "searchable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "ext": "0",
+      "changeable": 1
+    },
+    {
+      "key": "js集合",
+      "name": "js集合",
+      "type": 4,
+      "api": "../js.php",
+      "searchable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
+    {
+      "key": "php集合",
+      "name": "php集合",
+      "type": 4,
+      "api": "../php.php",
+      "searchable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
+    {
+      "key": "python集合",
+      "name": "python集合",
+      "type": 4,
+      "api": "../py.php",
+      "searchable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
+    {
+      "key": "服务器油管",
+      "name": "服务器油管",
+      "type": 4,
+      "api": "../yt/yt0021.php",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "油管播放列表1",
+      "name": "油管播放列表1",
+      "type": 4,
+      "api": "../ytlb.php",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "油管播放列表2",
+      "name": "油管播放列表2",
+      "type": 4,
+      "api": "../ytlb1.php",
+      "searchable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
+    {
+      "key": "CNTV低分辨",
+      "name": "CNTV低分辨",
+      "type": 1,
+      "api": "../cctv.php",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
+    {
+      "key": "影视文件播放",
+      "name": "影视文件播放",
+      "type": 4,
+      "api": "../zh/2242.php",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "清单播放",
+      "name": "清单播放",
+      "type": 4,
+      "api": "../zh/2243.php",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
+    {
+      "key": "油管清单播放",
+      "name": "油管清单播放",
+      "type": 4,
+      "api": "../zh/yt/2243.php",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
+    {
       "key": "瓜子影视",
       "name": "瓜子｜影视",
       "type": 3,
@@ -1471,179 +1644,6 @@
       "jar": "./nm/nm.jar",
       "type": 3,
       "api": "csp_Baiku"
-    },
-    {
-      "key": "油管jar",
-      "name": "油管jar",
-      "type": 3,
-      "api": "csp_ProxySpider",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "ext": {
-        "class": "YoutubeSpider",
-        "ext": {
-          "youtube_txt": "http://zhangqun1818.serv00.net/zq/youtube0418.txt"
-        }
-      }
-    },
-    {
-      "key": "爱瓜TV",
-      "name": "爱瓜TV",
-      "type": 4,
-      "api": "../aigua1.php",
-      "searchable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "changeable": 1
-    },
-    {
-      "key": "旺旺短剧",
-      "name": "旺旺短剧",
-      "type": 1,
-      "api": "../ww.php",
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "采集集合",
-      "name": "采集集合",
-      "type": 4,
-      "api": "http://zhangqun1818.serv00.net/cj/cjjh.php",
-      "searchable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "ext": "0",
-      "changeable": 1
-    },
-    {
-      "key": "js集合",
-      "name": "js集合",
-      "type": 4,
-      "api": "../js.php",
-      "searchable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "changeable": 1
-    },
-    {
-      "key": "php集合",
-      "name": "php集合",
-      "type": 4,
-      "api": "../php.php",
-      "searchable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "changeable": 1
-    },
-    {
-      "key": "python集合",
-      "name": "python集合",
-      "type": 4,
-      "api": "../py.php",
-      "searchable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "changeable": 1
-    },
-    {
-      "key": "服务器油管",
-      "name": "服务器油管",
-      "type": 4,
-      "api": "../yt/yt0021.php",
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "油管播放列表1",
-      "name": "油管播放列表1",
-      "type": 4,
-      "api": "../ytlb.php",
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "油管播放列表2",
-      "name": "油管播放列表2",
-      "type": 4,
-      "api": "../ytlb1.php",
-      "searchable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "changeable": 1
-    },
-    {
-      "key": "CNTV低分辨",
-      "name": "CNTV低分辨",
-      "type": 1,
-      "api": "../cctv.php",
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "changeable": 1
-    },
-    {
-      "key": "影视文件播放",
-      "name": "影视文件播放",
-      "type": 4,
-      "api": "../zh/2242.php",
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "清单播放",
-      "name": "清单播放",
-      "type": 4,
-      "api": "../zh/2243.php",
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "changeable": 1
-    },
-    {
-      "key": "油管清单播放",
-      "name": "油管清单播放",
-      "type": 4,
-      "api": "../zh/yt/2243.php",
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "changeable": 1
     },
     {
       "key": "柠檬",
@@ -3550,11 +3550,6 @@
       "url": "./tv.m3u"
     },
     {
-      "name": "Guovin",
-      "type": 0,
-      "url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u"
-    },
-    {
       "name": "政治时事",
       "url": "http://zhangqun66.com/141.php"
     },
@@ -3563,6 +3558,11 @@
       "url": "./野火改.txt",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "Guovin",
+      "type": 0,
+      "url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u"
     },
     {
       "name": "migu(优)",
@@ -3782,11 +3782,6 @@
       }
     },
     {
-      "name": "夏夜4k",
-      "type": 1,
-      "url": "https://183933.xyz/xiaye.php?url="
-    },
-    {
       "name": "解析聚合",
       "type": 3,
       "url": "Web"
@@ -3835,6 +3830,11 @@
           "User-Agent": "okhttp/4.9.1"
         }
       }
+    },
+    {
+      "name": "夏夜4k",
+      "type": 1,
+      "url": "https://183933.xyz/xiaye.php?url="
     },
     {
       "name": "线路1",
