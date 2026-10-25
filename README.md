@@ -8,7 +8,7 @@
 |---|---|---|
 | TVBox | https://tvbox.zpd.dpdns.org/tvbox | 线路清单 `{"urls":[...]}` |
 | 影视仓 | https://tvbox.zpd.dpdns.org/ysc | 完整配置（sites / lives / parses） |
-| 聚合 | https://tvbox.zpd.dpdns.org/agg | 每条线路一个 type:1 站点，直接指向线路地址，不做合并 |
+| 聚合 | https://tvbox.zpd.dpdns.org/agg | `{"sourceHouse":[{sourceName,sourceUrl}]}`，直接列出线路，不做合并 |
 
 根路径 `https://tvbox.zpd.dpdns.org/` 等同 `/tvbox`。
 
