@@ -6,9 +6,9 @@
 
 | 应用 | 地址 | 说明 |
 |---|---|---|
-| TVBox | https://tvbox.zpd.dpdns.org/tvbox | 线路清单 `{"urls":[...]}` |
-| 影视仓 | https://tvbox.zpd.dpdns.org/ysc | 完整配置（sites / lives / parses） |
-| 聚合 | https://tvbox.zpd.dpdns.org/agg | `{"sourceHouse":[{sourceName,sourceUrl}]}`，直接列出线路，不做合并 |
+| TVBox | https://tvbox.zpd.dpdns.org/tvbox | `{"sourceHouse":[{sourceName,sourceUrl}]}` |
+| 影视仓 | https://tvbox.zpd.dpdns.org/ysc | 线路清单 `{"urls":[{name,url}]}` |
+| 聚合 | https://tvbox.zpd.dpdns.org/agg | 与 `/tvbox` 相同，`sourceHouse` 格式 |
 
 根路径 `https://tvbox.zpd.dpdns.org/` 等同 `/tvbox`。
 
